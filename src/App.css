@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+.app{
+  width: 100%;
+  background-image: linear-gradient(to right, #051421, #042727);
+}
+
+h1{
+  font-size: 2.4rem;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+h3{
+  font-size: 1.8rem;
+}
+
+p{
+  font-size: 1.6rem;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1271px){
+  html{
+    font-size: 70%;
+}
+}
+
+
+@media screen and (max-width: 986px){
+  html{
+    font-size: 67%;
+}
+}
+
+@media screen and (max-width: 925px){
+  html{
+    font-size: 64%;
+}
+}
+
+@media screen and (max-width: 865px){
+  html{
+    font-size: 60%;
+}
+}
+
+@media screen and (max-width: 768px){
+  html{
+    font-size: 58%;
+}
+}
+
+
+
+@media screen and (max-width: 597px){
+  html{
+    font-size: 54%;
+}
+}

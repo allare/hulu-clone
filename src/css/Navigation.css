@@ -1,0 +1,34 @@
+.navigation{
+    display: inline-flex;
+    align-items: center;
+    padding: 2rem 4rem;
+    overflow-x: scroll;
+}
+
+.navigation::-webkit-scrollbar{
+    display: none;
+}
+
+.navigation{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.navigation > h3{
+    color: rgb(170, 170, 170);
+    font-weight: 600;
+    display: flex;
+    white-space: nowrap;
+    transition: all .1s ease-in;
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+    margin-left: 1rem;
+    text-align: center;
+    cursor:pointer;
+}
+
+.navigation > h3:hover{
+    color: #fff;
+    transform: scale(1.08);
+    transform-origin: center;
+}
